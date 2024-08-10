@@ -1,0 +1,1 @@
+# template-vanilla-vite-bootstrap
