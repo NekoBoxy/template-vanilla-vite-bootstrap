@@ -9,7 +9,6 @@ import '../scss/styles.scss'
 // };
 
 // 法 2 - 只引入需要的功能: Modal
-// import * as bootstrap from 'bootstrap'; // 看需求決定是否引入這行
 import { Modal } from 'bootstrap';
 
 const modelCtrl = function () {
@@ -17,8 +16,7 @@ const modelCtrl = function () {
   modalEl.show();
 };
 
-// 法 3 - 與法 2 相同，差在引入的路徑較完整
-// import * as bootstrap from 'bootstrap'; // 看需求決定是否引入這行
+// 法 3 - 極不建議使用。若官方換檔名/結構就全滅
 // import Modal from 'bootstrap/js/dist/modal';
 
 // const modelCtrl = function () {
